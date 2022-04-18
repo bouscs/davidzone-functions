@@ -25,6 +25,8 @@ module.exports = {
   rules: {
     'quotes': ['error', 'single'],
     'semi': ['error', 'never'],
+    'object-curly-spacing': ['error', 'always'],
+    'arrow-parens': ['error', 'as-needed'],
     'require-jsdoc': ['error', {
       'require': {
         'FunctionDeclaration': false,
